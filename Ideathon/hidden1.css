@@ -1,0 +1,190 @@
+.dro1 {
+    position: relative;
+    display: inline-block;
+  }
+
+  /* Style for the dropdown button */
+  .dr1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* Style for the dropdown content */
+  .d1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Style for dropdown options */
+  .d1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color on hover */
+  .d1 a:hover {
+    background-color: #f1f1f1;
+  }
+
+  /* Show dropdown content when button is hovered */
+  .dro1:hover .d1{
+    display: block;
+  }
+  /* Style for the dropdown content */
+  .d1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Style for dropdown options */
+  .d1 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color on hover */
+  .d1 a:hover {
+    background-color: #f1f1f1;
+  }
+
+  /* Show dropdown content when button is hovered */
+  .dro1:hover .d1{
+    display: block;
+  }
+  /* ************************************ */
+  /* Style for the dropdown content */
+  .dro2 {
+    position: relative;
+    display: inline-block;
+  }
+  .dr2 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .d2 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Style for dropdown options */
+  .d2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color on hover */
+  .d2 a:hover {
+    background-color: #f1f1f1;
+  }
+
+  /* Show dropdown content when button is hovered */
+  .dro2:hover .d2{
+    display: block;
+  }
+  /* ******************************************** */
+  .dro3 {
+    position: relative;
+    display: inline-block;
+  }
+  .dr3 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .d3 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Style for dropdown options */
+  .d3 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .d3 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color on hover */
+  .d3 a:hover {
+    background-color: #f1f1f1;
+  }
+
+  /* Show dropdown content when button is hovered */
+  .dro3:hover .d3{
+    display: block;
+  }
+  /* ********************************************** */
+  .dro4 {
+    position: relative;
+    display: inline-block;
+  }
+  .dr4 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  .d4 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  /* Style for dropdown options */
+  .d4 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color on hover */
+  .d4 a:hover {
+    background-color: #f1f1f1;
+  }
+
+  /* Show dropdown content when button is hovered */
+  .dro4:hover .d4{
+    display: block;
+  }

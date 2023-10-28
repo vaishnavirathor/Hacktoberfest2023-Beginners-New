@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hidden.css">
+</head>
+
+<body>
+  <div class="hid"> <div class="dropdown-container">
+    
+    <div class="dropdown">
+      <button class="dropdown-btn">Technology</button>
+      <div class="dropdown-content">
+    <a href="#">Apple iPhone</a>
+    <a href="#">Computer monitor</a>
+    <a href="#">Mouse</a>
+      </div>
+    </div>
+  
+    <div class="dropdown">
+      <button class="dropdown-btn">Cars</button>
+      <div class="dropdown-content">
+        <a href="#">BMW</a>
+    <a href="#">Toyota</a>
+    <a href="#">Porsche</a>
+      </div>
+    </div>
+  
+    <div class="dropdown">
+      <button class="dropdown-btn">Animals</button>
+      <div class="dropdown-content">
+        <a href="#">Dog</a>
+        <a href="#">Cat</a>
+        <a href="#">Horse</a>
+      </div>
+
+    </div>
+  
+    <div class="dropdown">
+      <button class="dropdown-btn">Flowers</button>
+      <div class="dropdown-content">
+        <a href="#">Rose</a>
+    <a href="#">Lotus</a>
+    <a href="#">Jasmine</a>
+      </div>
+    </div>
+  </div>
+  
+  <div id="selected-item">
+    <b>Selected: </b>
+  </div>
+  <div class="sub">
+    <button type="submit" class="sb" > <a class="li" href="login.html">Submit</a></button>
+  </div>
+</div>
+
+</body>
+<script>
+    const dropdowns = document.getElementsByClassName('dropdown');
+
+for (let i = 0; i < dropdowns.length; i++) {
+  const dropdown = dropdowns[i];
+  const dropdownBtn = dropdown.getElementsByClassName('dropdown-btn')[0];
+  const dropdownOptions = dropdown.getElementsByTagName('a');
+  
+  for (let j = 0; j < dropdownOptions.length; j++) {
+    const option = dropdownOptions[j];
+    
+    option.addEventListener('click', function() {
+      const selectedItem = option.innerText;
+      document.getElementById('selected-item').innerText = `${document.getElementById('selected-item').innerText} ${selectedItem}`;
+    });
+  }
+}
+</script>
+</html>
